@@ -1,16 +1,10 @@
-.contact-container {
+.about-techSkills {
   background-color: var(--navy);
-  padding: 40px;
 }
 
-.contact-container h1 {
+.about-techSkills h1 {
   text-transform: uppercase;
   color: var(--gold);
   text-align: center;
   font-size: 2em;
-}
-
-.contact-container p {
-  text-align: center;
-  margin: 20px;
 }
