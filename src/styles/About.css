@@ -1,10 +1,27 @@
-.about-techSkills {
-  background-color: var(--navy);
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-techSkills h1 {
+.skills-container h1 {
   text-transform: uppercase;
   color: var(--gold);
   text-align: center;
   font-size: 2em;
+}
+
+.about {
+  background-color: #272581;
+  padding: 40px;
+}
+
+.about h1 {
+  color: var(--gold);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+  font-size: 1.9em;
 }
