@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Viga, 'sans-serif';
+}
+
+:root {
+  --darkblue: #14153d;
+}
