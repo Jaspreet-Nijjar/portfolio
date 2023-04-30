@@ -1,0 +1,16 @@
+.contact-container {
+  background-color: var(--navy);
+  padding: 40px;
+}
+
+.contact-container h1 {
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.contact-container p {
+  text-align: center;
+  margin: 20px;
+}
