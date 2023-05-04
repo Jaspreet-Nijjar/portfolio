@@ -1,12 +1,11 @@
-import { Footer } from './components/Footer';
-import { Contact } from './components/Contact';
 import { About } from './components/About';
+import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <About />
-      <Contact />
+      <Navbar />
       <Footer />
     </div>
   );

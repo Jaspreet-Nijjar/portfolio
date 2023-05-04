@@ -1,10 +1,10 @@
-body {
+footer p {
   color: white;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 footer {
-  padding: 20px;
+  padding: 5px 20px;
   background-color: var(--darkblue);
 }
 

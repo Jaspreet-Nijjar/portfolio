@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -7,11 +7,14 @@
 }
 
 body {
-  font-family: Viga, 'sans-serif';
+  font-family: Roboto, 'Arial';
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
   --darkblue: #14153d;
   --gold: #ffc636;
-  --navy: #0a0b5b;
 }
