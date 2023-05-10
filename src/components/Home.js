@@ -8,7 +8,16 @@ export const Home = () => {
         <h2 className="smaller-header">Hi my name is</h2>
         <h1 className="large-header">Jaspreet Nijjar</h1>
         <h1 className="large-header">I'm a Front End Developer</h1>
-        <Link className="home-btn">View Projects</Link>
+        <Link
+          className="home-btn"
+          to="#projects"
+          onClick={() => {
+            let projects = document.getElementById('projects');
+            projects && projects.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
+          View Projects
+        </Link>
       </div>
     </section>
   );
