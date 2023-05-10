@@ -1,6 +1,6 @@
 .navbar {
   padding: 20px;
-  background-color: var(--darkblue);
+  background-color: var(--navy);
   display: flex;
   justify-content: flex-end;
 }
@@ -25,17 +25,34 @@ a:hover {
 }
 
 .nav-menu {
-  background-color: var(--darkblue);
+  background-color: var(--navy);
   display: flex;
   flex-direction: column;
   position: absolute;
   right: -100%;
   width: 40%;
   height: 100vh;
-  transition: all 0.5s ease;
 }
 
 .nav-menu.active {
   right: 0;
   transition: all 0.5s ease;
+}
+
+@media screen and (min-width: 600px) {
+  .menu-icon i {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    padding: 0 10px;
+    right: 0;
+    justify-content: flex-end;
+    transition: none;
+  }
 }
