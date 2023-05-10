@@ -9,14 +9,15 @@
 }
 
 .home-container {
-  max-width: 50%;
+  max-width: 70%;
   margin: 0 auto;
   height: 100vh;
+  padding-top: 30px;
 }
 
 .large-header {
   color: white;
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 .large-header:nth-child(3) {
