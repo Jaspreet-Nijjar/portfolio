@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
+  const [openSideBar, setOpenSideBar] = useState(false);
 
   const handleClick = () => {
     setClick(!click);

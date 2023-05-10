@@ -1,16 +1,39 @@
-.contact-container {
-  background-color: var(--navy);
-  padding: 40px;
+#contact {
+  background-color: var(--darkblue);
+  padding: 100px 0;
 }
 
-.contact-container h1 {
-  text-transform: uppercase;
-  color: var(--gold);
+.contact-header {
+  color: white;
+  font-size: 2.5em;
   text-align: center;
-  font-size: 2em;
 }
 
-.contact-container p {
+.contact-details {
+  color: white;
+  max-width: 500px;
   text-align: center;
-  margin: 20px;
+  margin: 20px auto;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 30px auto;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+  border-radius: 3px;
+  border: none;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-container form textarea {
+  resize: none;
 }
