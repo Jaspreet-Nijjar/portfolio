@@ -1,0 +1,36 @@
+.smaller-header {
+  color: var(--gold);
+  font-size: 1.5em;
+}
+
+#home {
+  padding: 200px 0;
+  background-color: var(--darkblue);
+}
+
+.home-container {
+  max-width: 50%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.large-header {
+  color: white;
+  font-size: 3.5em;
+}
+
+.large-header:nth-child(3) {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.home-btn {
+  display: inline-block;
+  border: 2px solid var(--cream);
+  padding: 15px;
+  margin: 30px 0;
+  transition: 0.5s ease-in;
+}
+
+.home-btn:hover {
+  border: 2px solid var(--gold);
+}

@@ -10,6 +10,10 @@ export const Navbar = () => {
     setClick(!click);
   };
 
+  const closeSideBar = () => {
+    setOpenSideBar(!openSideBar);
+  };
+
   return (
     <>
       <div className="navbar">
@@ -18,7 +22,10 @@ export const Navbar = () => {
         </div>
       </div>
 
-      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+      <ul
+        className={click ? 'nav-menu active' : 'nav-menu'}
+        onClick={closeSideBar}
+      >
         <Link to="#">Home</Link>
         <Link
           to="#about"

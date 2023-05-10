@@ -1,6 +1,7 @@
 #contact {
   background-color: var(--darkblue);
-  padding: 100px 0;
+  padding-top: 150px;
+  padding-bottom: 120px;
 }
 
 .contact-header {
