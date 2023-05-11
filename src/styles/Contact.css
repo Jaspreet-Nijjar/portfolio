@@ -32,7 +32,7 @@
   padding: 10px;
   font-family: Roboto;
   font-size: 1em;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--cream);
 }
 
 .contact-container form textarea {

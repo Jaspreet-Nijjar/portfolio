@@ -1,6 +1,7 @@
 import '../styles/Navbar.css';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/logo.png';
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -10,15 +11,23 @@ export const Navbar = () => {
     setClick(!click);
   };
 
+  const closeMobileMenu = () => {
+    setClick(false);
+  };
+
   return (
     <>
-      <div className="navbar">
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? 'fas fa-times ' : 'fas fa-bars'} />
-        </div>
-      </div>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <img src={Logo} alt="" className="nav-logo" />
 
-      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? 'fas fa-times ' : 'fas fa-bars'} />
+          </div>
+        </div>
+      </nav>
+
+      {/* <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <Link
           to="#home"
           onClick={() => {
@@ -56,7 +65,7 @@ export const Navbar = () => {
         >
           Contact
         </Link>
-      </ul>
+      </ul> */}
     </>
   );
 };

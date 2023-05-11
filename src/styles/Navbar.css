@@ -1,8 +1,23 @@
 .navbar {
   padding: 20px;
   background-color: var(--navy);
+}
+
+.navbar-container {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  max-width: 100px;
 }
 
 i {

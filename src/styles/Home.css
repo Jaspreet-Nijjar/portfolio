@@ -21,7 +21,7 @@
 }
 
 .large-header:nth-child(3) {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--cream);
 }
 
 .home-btn {
