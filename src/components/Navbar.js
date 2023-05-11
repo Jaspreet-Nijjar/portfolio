@@ -16,18 +16,16 @@ export const Navbar = () => {
   };
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <img src={Logo} alt="" className="nav-logo" />
+    <nav className="navbar">
+      <div className="navbar-container">
+        <img src={Logo} alt="" className="nav-logo" />
 
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fas fa-times ' : 'fas fa-bars'} />
-          </div>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? 'fas fa-times ' : 'fas fa-bars'} />
         </div>
-      </nav>
+      </div>
 
-      {/* <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <Link
           to="#home"
           onClick={() => {
@@ -65,7 +63,7 @@ export const Navbar = () => {
         >
           Contact
         </Link>
-      </ul> */}
-    </>
+      </ul>
+    </nav>
   );
 };

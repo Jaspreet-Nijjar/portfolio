@@ -1,18 +1,20 @@
 .navbar {
   padding: 20px;
   background-color: var(--navy);
+  height: 120px;
+  display: flex;
+  justify-content: flex-;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.nav-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 120px;
   width: 100%;
 }
 
@@ -46,7 +48,7 @@ a:hover {
   position: fixed;
   right: -100%;
   width: 40%;
-  /* top: 10px; */
+  top: 100px;
   height: 100vh;
 }
 
@@ -64,11 +66,12 @@ a:hover {
     display: flex;
     flex-direction: row;
     height: 100px;
-    width: 100%;
+    width: 50%;
     top: 0;
     padding: 0 10px;
     right: 0;
     justify-content: flex-end;
+    align-items: center;
     transition: none;
   }
 }
