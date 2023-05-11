@@ -3,7 +3,7 @@
   background-color: var(--navy);
   height: 120px;
   display: flex;
-  justify-content: flex-;
+  justify-self: flex-end;
   align-items: center;
   position: sticky;
   top: 0;
@@ -20,6 +20,7 @@
 
 img {
   max-width: 100px;
+  cursor: pointer;
 }
 
 i {
@@ -34,6 +35,7 @@ a {
   padding: 35px 20px;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 
 a:hover {

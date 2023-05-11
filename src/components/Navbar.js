@@ -1,6 +1,6 @@
 import '../styles/Navbar.css';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Logo from '../assets/logo.png';
 
 export const Navbar = () => {
@@ -18,7 +18,9 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <img src={Logo} alt="" className="nav-logo" />
+        <Link smooth to="home">
+          <img src={Logo} alt="" className="nav-logo" />
+        </Link>
 
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? 'fas fa-times ' : 'fas fa-bars'} />
@@ -26,41 +28,19 @@ export const Navbar = () => {
       </div>
 
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <Link
-          to="#home"
-          onClick={() => {
-            let home = document.getElementById('home');
-            home && home.scrollIntoView({ behavior: 'smooth' });
-          }}
-        >
+        <Link smooth to="#home" onClick={closeMobileMenu}>
           Home
         </Link>
 
-        <Link
-          to="#about"
-          onClick={() => {
-            let about = document.getElementById('about');
-            about && about.scrollIntoView({ behavior: 'smooth' });
-          }}
-        >
+        <Link smooth to="#about" onClick={closeMobileMenu}>
           About
         </Link>
-        <Link
-          to="#projects"
-          onClick={() => {
-            let projects = document.getElementById('projects');
-            projects && projects.scrollIntoView({ behavior: 'smooth' });
-          }}
-        >
+
+        <Link smooth to="projects" onClick={closeMobileMenu}>
           Projects
         </Link>
-        <Link
-          to="#contact"
-          onClick={() => {
-            let contact = document.getElementById('contact');
-            contact && contact.scrollIntoView({ behavior: 'smooth' });
-          }}
-        >
+
+        <Link smooth to="contact" onClick={closeMobileMenu}>
           Contact
         </Link>
       </ul>
