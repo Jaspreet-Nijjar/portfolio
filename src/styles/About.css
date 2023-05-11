@@ -1,4 +1,4 @@
-.skills-container {
+/* .skills-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -11,17 +11,27 @@
   color: var(--gold);
   text-align: center;
   font-size: 2em;
+} */
+
+#about {
+  background-color: var(--darkblue);
 }
 
-.about {
-  background-color: #272581;
-  padding: 40px;
+.about-container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 110px 0;
 }
 
-.about h1 {
-  color: var(--gold);
-  text-transform: uppercase;
+.about-content {
+  color: var(--cream);
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.about-large-header {
+  color: white;
+  font-size: 3em;
+  line-height: 1.5;
   text-align: center;
-  margin: 20px;
-  font-size: 1.9em;
 }

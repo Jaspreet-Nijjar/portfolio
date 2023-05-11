@@ -4,15 +4,13 @@
 }
 
 #home {
-  padding: 100px 0;
+  padding-top: 150px;
   background-color: var(--darkblue);
-  height: 100vh;
 }
 
 .home-container {
   max-width: 70%;
   margin: 0 auto;
-  height: 100vh;
   padding: 30px;
 }
 
@@ -30,10 +28,16 @@
   display: inline-block;
   border: 2px solid var(--cream);
   padding: 15px;
-  margin: 50px 0;
+  margin-top: 50px;
   transition: 0.5s ease-in;
 }
 
 .home-btn:hover {
   border: 2px solid var(--gold);
+}
+
+.home-content {
+  color: var(--cream);
+  line-height: 1.4;
+  margin-top: 7px;
 }

@@ -28,11 +28,11 @@ export const Navbar = () => {
       </div>
 
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <Link smooth to="#home" onClick={closeMobileMenu}>
+        <Link smooth to="home" onClick={closeMobileMenu}>
           Home
         </Link>
 
-        <Link smooth to="#about" onClick={closeMobileMenu}>
+        <Link smooth to="about" onClick={closeMobileMenu}>
           About
         </Link>
 
