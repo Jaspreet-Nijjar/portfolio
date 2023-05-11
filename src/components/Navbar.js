@@ -18,7 +18,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link smooth to="home">
+        <Link to="home" smooth={true} spy={true} offset={-100}>
           <img src={Logo} alt="" className="nav-logo" />
         </Link>
 
@@ -28,19 +28,43 @@ export const Navbar = () => {
       </div>
 
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <Link smooth to="home" onClick={closeMobileMenu}>
+        <Link
+          to="home"
+          smooth={true}
+          spy={true}
+          offset={-100}
+          onClick={closeMobileMenu}
+        >
           Home
         </Link>
 
-        <Link smooth to="about" onClick={closeMobileMenu}>
+        <Link
+          to="about"
+          smooth={true}
+          spy={true}
+          offset={-100}
+          onClick={closeMobileMenu}
+        >
           About
         </Link>
 
-        <Link smooth to="projects" onClick={closeMobileMenu}>
+        <Link
+          to="projects"
+          smooth={true}
+          spy={true}
+          offset={-100}
+          onClick={closeMobileMenu}
+        >
           Projects
         </Link>
 
-        <Link smooth to="contact" onClick={closeMobileMenu}>
+        <Link
+          to="contact"
+          smooth={true}
+          spy={true}
+          offset={-100}
+          onClick={closeMobileMenu}
+        >
           Contact
         </Link>
       </ul>
