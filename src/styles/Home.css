@@ -11,12 +11,12 @@
 .home-container {
   max-width: 70%;
   margin: 0 auto;
-  padding: 40px;
+  /* padding: 40px; */
 }
 
 .large-header {
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1.5;
 }
 
@@ -40,4 +40,10 @@
   color: var(--cream);
   line-height: 1.4;
   margin-top: 7px;
+}
+
+@media screen and (min-width: 700px) {
+  .large-header {
+    font-size: 3em;
+  }
 }

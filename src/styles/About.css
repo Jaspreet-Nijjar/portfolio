@@ -13,14 +13,14 @@
 }
 
 .about-container {
-  max-width: 70%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 110px 0;
 }
 
 .about-content {
   color: var(--cream);
-  max-width: 70%;
+  max-width: 90%;
   margin: 20px auto;
 }
 
@@ -34,6 +34,10 @@
 @media screen and (min-width: 500px) {
   .skills-container {
     grid-template-columns: repeat(2, 200px);
+  }
+
+  .about-container {
+    max-width: 70%;
   }
 }
 

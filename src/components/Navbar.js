@@ -37,9 +37,6 @@ export const Navbar = () => {
         >
           Home
         </Link>
-
-        <p>Test</p>
-
         <Link
           to="about"
           smooth={true}
