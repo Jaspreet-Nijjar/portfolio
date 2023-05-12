@@ -1,5 +1,5 @@
 .project-item {
-  width: 350px;
+  max-width: 350px;
   margin: 20px auto;
   background-color: var(--navy);
   border-radius: 7px;
