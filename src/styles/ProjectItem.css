@@ -1,8 +1,9 @@
 .project-item {
-  border: 2px solid green;
   width: 300px;
-  margin-top: 20px;
+  margin: 20px auto;
   background-color: var(--navy);
+  border-radius: 7px;
+  padding-bottom: 30px;
 }
 
 .project-image {
@@ -10,11 +11,15 @@
   width: 300px;
   height: 200px;
   object-fit: cover;
+  border-top-left-radius: 7px;
+
+  border-top-right-radius: 7px;
 }
 
 .project-title {
   color: white;
   font-size: 1.5em;
+  margin: 5px 0;
 }
 
 .project-description {
@@ -41,4 +46,12 @@
   border: 1px solid var(--gold);
   border-radius: 10px;
   padding: 2px 15px;
+  margin-bottom: 40px;
+}
+
+.project-item a {
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #a1a1b1;
 }
