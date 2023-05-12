@@ -4,6 +4,8 @@
   background-color: var(--navy);
   border-radius: 7px;
   padding-bottom: 30px;
+  display: grid;
+  grid-template-rows: 330px 50px 90px;
 }
 
 .project-image {
