@@ -59,7 +59,7 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .menu-icon i {
     display: none;
   }

@@ -1,9 +1,9 @@
 .tech-item {
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 10px 20px;
-  border: 1px solid var(--gold);
   width: 150px;
   transition: 0.3s ease-in-out;
+  background-color: var(--navy);
 }
 
 .tech-item p {
@@ -15,7 +15,7 @@
 }
 
 .tech-item img {
-  width: 50px;
+  width: 80px;
   display: block;
   margin: 0 auto;
 }
