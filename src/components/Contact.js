@@ -21,7 +21,7 @@ export const Contact = () => {
             name="message"
             required
           ></textarea>
-          <button>Send Messsage</button>
+          <button className="contact-btn">Send Message</button>
         </form>
       </div>
     </section>

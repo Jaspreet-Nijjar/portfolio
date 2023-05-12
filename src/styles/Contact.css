@@ -37,3 +37,17 @@
 .contact-container form textarea {
   resize: none;
 }
+
+.contact-btn {
+  background-color: var(--gold);
+  border: none;
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--navy);
+  font-size: 0.9em;
+  font-family: Roboto, 'sans-serif';
+  margin-top: 10px;
+}
