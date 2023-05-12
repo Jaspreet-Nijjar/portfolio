@@ -14,8 +14,10 @@ export const ProjectItem = ({ project }) => {
         ))}
       </div>
 
-      <Link to={project.code}>View Code</Link>
-      <Link to={project.preview}>Live Preview</Link>
+      <div className="project-links">
+        <Link to={project.code}>View Code</Link>
+        <Link to={project.preview}>Live Preview</Link>
+      </div>
     </div>
   );
 };

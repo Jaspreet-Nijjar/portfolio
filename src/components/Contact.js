@@ -9,10 +9,19 @@ export const Contact = () => {
           You can submit the form below or feel free to send me an email
           directly - <strong>jaspreet.nijjar29@gmail.com</strong>
         </p>
-        <form>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea rows="7" placeholder="Message"></textarea>
+        <form
+          method="POST"
+          action="https://getform.io/f/8369f0dc-8121-45bb-b929-7fe2321b95e5"
+        >
+          <input type="text" placeholder="Name" name="name" required />
+          <input type="email" placeholder="Email" name="email" required />
+          <textarea
+            rows="7"
+            placeholder="Message"
+            name="message"
+            required
+          ></textarea>
+          <button>Send Messsage</button>
         </form>
       </div>
     </section>
