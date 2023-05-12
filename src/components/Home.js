@@ -1,5 +1,5 @@
 import '../styles/Home.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export const Home = () => {
   return (
@@ -15,12 +15,11 @@ export const Home = () => {
           I love to create and build responsive apps.
         </p>
         <Link
+          smooth={true}
+          spy={true}
+          offset={-100}
           className="home-btn"
-          to="#projects"
-          onClick={() => {
-            let projects = document.getElementById('projects');
-            projects && projects.scrollIntoView({ behavior: 'smooth' });
-          }}
+          to="projects"
         >
           View Projects
         </Link>
