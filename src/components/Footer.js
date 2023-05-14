@@ -11,7 +11,7 @@ export const Footer = () => {
           <FaGithub class="footer-icon" />
         </a>
 
-        <a href="https://www.linkedin.com">
+        <a href="https://www.linkedin.com/in/jaspreet-nijjar-3266a7276/">
           <FaLinkedin class="footer-icon" />
         </a>
       </div>

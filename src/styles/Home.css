@@ -42,7 +42,7 @@
   margin-top: 7px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .large-header {
     font-size: 3em;
   }
